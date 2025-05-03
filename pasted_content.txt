@@ -1,0 +1,60 @@
+You are an expert full-stack developer tasked with building an “AI Tutor” web app.  
+Your goal is to deliver a fully working website, complete with code, tests, and documentation, using only free or open-source tools.  
+
+**Requirements:**  
+1. **Material Upload:**  
+   - Students or parents can upload images (JPG/PNG), PDF and DOCX files.  
+   - Use Pillow to handle uploaded images and, if text needs to be extracted, integrate Tesseract OCR via pytesseract.  
+   - Use PyPDF2 (for PDFs) and python-docx to extract text server-side.  
+
+2. **Lesson Explanations:**  
+   - Present explanations in clear, simple, conversational English—just like a private tutor.  
+   - Allow students to click “Explain” on any uploaded section (text or image) to see the tutor’s breakdown.  
+
+3. **Text-to-Speech:**  
+   - Integrate a free TTS library (e.g., Hugging Face’s open-source TTS model or gTTS) so students can listen to lessons.  
+   - Provide play/pause controls and volume adjustment.  
+
+4. **Assessment & Progress Reports:**  
+   - After each lesson, auto-generate 5–10 random multiple-choice and short-answer questions to test comprehension.  
+   - Store quiz results in a SQLite database.  
+   - Automatically compile a PDF or HTML progress report showing scores, attempts, and areas for improvement.  
+   - Include functionality to email this report to a parent or guardian.  
+
+5. **User-Friendly Interface:**  
+   - Build a clean, responsive frontend using Streamlit (or Flask + Bootstrap) that’s intuitive for both students and parents.  
+   - Include clear navigation: “Upload Material,” “Lessons,” “Quizzes,” and “Progress Reports.”  
+
+6. **Authentication & Subscription:**  
+   - **Invite-only Sign-Up:** Generate single-use, time-limited invite links using itsdangerous (or equivalent). Each link can be used only once to register.  
+   - **User Accounts:** Allow users to sign up/sign in with username + password. Use bcrypt for password hashing and Flask-Login (or Streamlit-Auth) for session management.  
+   - **Subscription Billing:** Integrate Stripe’s free developer API keys (test mode) or another open-source billing library to manage paid subscriptions. Restrict all content/features to active, subscribed users.  
+
+**Deliverables:**  
+- A GitHub repository containing:  
+  - `streamlit_app.py` (or `app.py`) as the main entry point.  
+  - Modular code files for:  
+    - upload/parse (images, PDF, DOCX)  
+    - lesson/explanation logic  
+    - text-to-speech integration  
+    - quiz generation  
+    - progress reporting  
+    - authentication & invite link generation  
+    - subscription billing integration  
+  - A `requirements.txt` listing only free/open-source packages (e.g., Pillow, pytesseract, PyPDF2, python-docx, gTTS, Streamlit or Flask, bcrypt, itsdangerous, flask-login, stripe).  
+  - A comprehensive README with:  
+    - Setup and installation instructions.  
+    - How to generate and send invite links.  
+    - Configuring Stripe test keys (or alternative billing).  
+    - Usage examples and screenshots.  
+    - How to deploy locally and on Streamlit Cloud or Heroku.  
+  - Basic automated tests (e.g., using pytest) to verify upload, OCR/TTS, quiz functionality, auth flows, and subscription gating.  
+
+**Constraints:**  
+- Use only free-tier or open-source APIs and libraries.  
+- Keep external dependencies minimal.  
+- Write well-commented, beginner-friendly code.  
+- Ensure the app runs out of the box with a single  
+  ```bash  
+  pip install -r requirements.txt  
+  streamlit run streamlit_app.py  

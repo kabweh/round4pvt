@@ -1,0 +1,324 @@
+
+[     UTC     ] Logs for ai-tutor-app-yydzldgjxblfgyjggmpmmy.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[08:19:04] 🖥 Provisioning machine...
+[08:19:04] 🎛 Preparing system...
+[08:19:04] ⛓ Spinning up manager process...
+[08:19:10] 🚀 Starting up repository: 'ai-tutor-app', branch: 'main2', main module: 'streamlit_app.py'
+[08:19:10] 🐙 Cloning repository...
+[08:19:11] 🐙 Cloning into '/mount/src/ai-tutor-app'...
+Warning: Permanently added the ED25519 host key for IP address '140.82.116.4' to the list of known hosts.
+
+[08:19:12] 🐙 Cloned repository!
+[08:19:12] 🐙 Pulling code changes from Github...
+[08:19:13] 📦 Processing dependencies...
+[08:19:13] 📦 Apt dependencies were installed from /mount/src/ai-tutor-app/packages.txt using apt-get.
+Hit:1 http://deb.debian.org/debian bullseye InRelease
+Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [27.2 kB]
+Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+Get:4 https://packages.microsoft.com/debian/11/prod bullseye InRelease [3650 B]
+Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [363 kB]
+Get:6 https://packages.microsoft.com/debian/11/prod bullseye/main arm64 Packages [46.0 kB]
+Get:7 https://packages.microsoft.com/debian/11/prod bullseye/main amd64 Packages [195 kB]
+Fetched 679 kB in 1s (927 kB/s)
+Reading package lists...[2025-05-03 08:19:14.845383] 
+Reading package lists...[2025-05-03 08:19:15.487342] 
+Building dependency tree...[2025-05-03 08:19:15.729250] 
+Reading state information...[2025-05-03 08:19:15.729606] 
+The following additional packages will be installed:
+  fontconfig libarchive13 libcairo2 libdatrie1 libfribidi0 libgif7
+  libgraphite2-3 libharfbuzz0b liblcms2-2 liblept5 libnspr4 libnss3
+  libopenjp2-7 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0
+  libpixman-1-0 libpoppler102 libtesseract4 libthai-data libthai0 libwebpmux3
+  libxcb-render0 libxcb-shm0 libxrender1 poppler-data tesseract-ocr-eng
+  tesseract-ocr-osd
+Suggested packages:
+  lrzip liblcms2-utils ghostscript fonts-japanese-mincho
+  | fonts-ipafont-mincho fonts-japanese-gothic | fonts-ipafont-gothic
+  fonts-arphic-ukai fonts-arphic-uming fonts-nanum
+The following NEW packages will be installed:
+  fontconfig libarchive13 libcairo2 libdatrie1 libfribidi0 libgif7
+  libgraphite2-3 libharfbuzz0b liblcms2-2 liblept5 libnspr4 libnss3
+  libopenjp2-7 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0
+  libpixman-1-0 libpoppler102 libtesseract4 libthai-data libthai0 libwebpmux3
+  libxcb-render0 libxcb-shm0 libxrender1 poppler-data poppler-utils
+  tesseract-ocr tesseract-ocr-eng tesseract-ocr-osd zlib1g-dev
+0 upgraded, 31 newly installed, 0 to remove and 10 not upgraded.
+Need to get 17.2 MB of archives.
+After this operation, 55.6 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 poppler-data all 0.4.10-1 [1602 kB]
+Get:2 http://deb.debian.org/debian bullseye/main amd64 fontconfig amd64 2.13.1-4.2 [417 kB]
+Get:3 http://deb.debian.org/debian-security bullseye-security/main amd64 libarchive13 amd64 3.4.3-2+deb11u2 [343 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 libpixman-1-0 amd64 0.40.0-1.1~deb11u1 [543 kB]
+Get:5 http://deb.debian.org/debian bullseye/main amd64 libxcb-render0 amd64 1.14-3 [111 kB]
+Get:6 http://deb.debian.org/debian bullseye/main amd64 libxcb-shm0 amd64 1.14-3 [101 kB]
+Get:7 http://deb.debian.org/debian bullseye/main amd64 libxrender1 amd64 1:0.9.10-1 [33.0 kB]
+Get:8 http://deb.debian.org/debian bullseye/main amd64 libcairo2 amd64 1.16.0-5 [694 kB]
+Get:9 http://deb.debian.org/debian bullseye/main amd64 libdatrie1 amd64 0.2.13-1 [42.7 kB]
+Get:10 http://deb.debian.org/debian bullseye/main amd64 libfribidi0 amd64 1.0.8-2+deb11u1 [64.9 kB]
+Get:11 http://deb.debian.org/debian bullseye/main amd64 libgif7 amd64 5.1.9-2 [45.1 kB]
+Get:12 http://deb.debian.org/debian bullseye/main amd64 libgraphite2-3 amd64 1.3.14-1 [81.2 kB]
+Get:13 http://deb.debian.org/debian bullseye/main amd64 libharfbuzz0b amd64 2.7.4-1 [1471 kB]
+Get:14 http://deb.debian.org/debian bullseye/main amd64 liblcms2-2 amd64 2.12~rc1-2 [150 kB]
+Get:15 http://deb.debian.org/debian-security bullseye-security/main amd64 libopenjp2-7 amd64 2.4.0-3+deb11u1 [172 kB]
+Get:16 http://deb.debian.org/debian bullseye/main amd64 libwebpmux3 amd64 0.6.1-2.1+deb11u2 [97.7 kB]
+Get:17 http://deb.debian.org/debian bullseye/main amd64 liblept5 amd64 1.79.0-1.1+deb11u1 [1027 kB]
+Get:18 http://deb.debian.org/debian bullseye/main amd64 libnspr4 amd64 2:4.29-1 [112 kB]
+Get:19 http://deb.debian.org/debian-security bullseye-security/main amd64 libnss3 amd64 2:3.61-1+deb11u4 [1304 kB]
+Get:20 http://deb.debian.org/debian bullseye/main amd64 libthai-data all 0.1.28-3 [170 kB]
+Get:21 http://deb.debian.org/debian bullseye/main amd64 libthai0 amd64 0.1.28-3 [54.2 kB]
+Get:22 http://deb.debian.org/debian bullseye/main amd64 libpango-1.0-0 amd64 1.46.2-3 [191 kB]
+Get:23 http://deb.debian.org/debian bullseye/main amd64 libpangoft2-1.0-0 amd64 1.46.2-3 [62.2 kB]
+Get:24 http://deb.debian.org/debian bullseye/main amd64 libpangocairo-1.0-0 amd64 1.46.2-3 [50.6 kB]
+Get:25 http://deb.debian.org/debian-security bullseye-security/main amd64 libpoppler102 amd64 20.09.0-3.1+deb11u2 [1677 kB]
+Get:26 http://deb.debian.org/debian bullseye/main amd64 libtesseract4 amd64 4.1.1-2.1 [1274 kB]
+Get:27 http://deb.debian.org/debian-security bullseye-security/main amd64 poppler-utils amd64 20.09.0-3.1+deb11u2 [189 kB]
+Get:28 http://deb.debian.org/debian bullseye/main amd64 tesseract-ocr-eng all 1:4.00~git30-7274cfa-1.1 [1592 kB]
+Get:29 http://deb.debian.org/debian bullseye/main amd64 tesseract-ocr-osd all 1:4.00~git30-7274cfa-1.1 [2991 kB]
+Get:30 http://deb.debian.org/debian bullseye/main amd64 tesseract-ocr amd64 4.1.1-2.1 [328 kB]
+Get:31 http://deb.debian.org/debian bullseye/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2+deb11u2 [191 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 17.2 MB in 0s (45.7 MB/s)
+Selecting previously unselected package poppler-data.
+(Reading database ... [2025-05-03 08:19:16.748684] (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%[2025-05-03 08:19:16.751993] (Reading database ... 70%[2025-05-03 08:19:16.753121] (Reading database ... 75%[2025-05-03 08:19:16.754791] (Reading database ... 80%[2025-05-03 08:19:16.756351] (Reading database ... 85%[2025-05-03 08:19:16.757331] (Reading database ... 90%[2025-05-03 08:19:16.759062] (Reading database ... 95%[2025-05-03 08:19:16.761613] (Reading database ... 100%(Reading database ... 22039 files and directories currently installed.)
+Preparing to unpack .../00-poppler-data_0.4.10-1_all.deb ...
+Unpacking poppler-data (0.4.10-1) ...
+Selecting previously unselected package fontconfig.
+Preparing to unpack .../01-fontconfig_2.13.1-4.2_amd64.deb ...
+Unpacking fontconfig (2.13.1-4.2) ...
+Selecting previously unselected package libarchive13:amd64.
+Preparing to unpack .../02-libarchive13_3.4.3-2+deb11u2_amd64.deb ...
+Unpacking libarchive13:amd64 (3.4.3-2+deb11u2) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../03-libpixman-1-0_0.40.0-1.1~deb11u1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.40.0-1.1~deb11u1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../04-libxcb-render0_1.14-3_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.14-3) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../05-libxcb-shm0_1.14-3_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.14-3) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../06-libxrender1_1%3a0.9.10-1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.10-1) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../07-libcairo2_1.16.0-5_amd64.deb ...
+Unpacking libcairo2:amd64 (1.16.0-5) ...
+Selecting previously unselected package libdatrie1:amd64.
+Preparing to unpack .../08-libdatrie1_0.2.13-1_amd64.deb ...
+Unpacking libdatrie1:amd64 (0.2.13-1) ...
+Selecting previously unselected package libfribidi0:amd64.
+Preparing to unpack .../09-libfribidi0_1.0.8-2+deb11u1_amd64.deb ...
+Unpacking libfribidi0:amd64 (1.0.8-2+deb11u1) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../10-libgif7_5.1.9-2_amd64.deb ...
+Unpacking libgif7:amd64 (5.1.9-2) ...
+Selecting previously unselected package libgraphite2-3:amd64.
+Preparing to unpack .../11-libgraphite2-3_1.3.14-1_amd64.deb ...
+Unpacking libgraphite2-3:amd64 (1.3.14-1) ...
+Selecting previously unselected package libharfbuzz0b:amd64.
+Preparing to unpack .../12-libharfbuzz0b_2.7.4-1_amd64.deb ...
+Unpacking libharfbuzz0b:amd64 (2.7.4-1) ...
+Selecting previously unselected package liblcms2-2:amd64.
+Preparing to unpack .../13-liblcms2-2_2.12~rc1-2_amd64.deb ...
+Unpacking liblcms2-2:amd64 (2.12~rc1-2) ...
+Selecting previously unselected package libopenjp2-7:amd64.
+Preparing to unpack .../14-libopenjp2-7_2.4.0-3+deb11u1_amd64.deb ...
+Unpacking libopenjp2-7:amd64 (2.4.0-3+deb11u1) ...
+Selecting previously unselected package libwebpmux3:amd64.
+Preparing to unpack .../15-libwebpmux3_0.6.1-2.1+deb11u2_amd64.deb ...
+Unpacking libwebpmux3:amd64 (0.6.1-2.1+deb11u2) ...
+Selecting previously unselected package liblept5:amd64.
+Preparing to unpack .../16-liblept5_1.79.0-1.1+deb11u1_amd64.deb ...
+Unpacking liblept5:amd64 (1.79.0-1.1+deb11u1) ...
+Selecting previously unselected package libnspr4:amd64.
+Preparing to unpack .../17-libnspr4_2%3a4.29-1_amd64.deb ...
+Unpacking libnspr4:amd64 (2:4.29-1) ...
+Selecting previously unselected package libnss3:amd64.
+Preparing to unpack .../18-libnss3_2%3a3.61-1+deb11u4_amd64.deb ...
+Unpacking libnss3:amd64 (2:3.61-1+deb11u4) ...
+Selecting previously unselected package libthai-data.
+Preparing to unpack .../19-libthai-data_0.1.28-3_all.deb ...
+Unpacking libthai-data (0.1.28-3) ...
+Selecting previously unselected package libthai0:amd64.
+Preparing to unpack .../20-libthai0_0.1.28-3_amd64.deb ...
+Unpacking libthai0:amd64 (0.1.28-3) ...
+Selecting previously unselected package libpango-1.0-0:amd64.
+Preparing to unpack .../21-libpango-1.0-0_1.46.2-3_amd64.deb ...
+Unpacking libpango-1.0-0:amd64 (1.46.2-3) ...
+Selecting previously unselected package libpangoft2-1.0-0:amd64.
+Preparing to unpack .../22-libpangoft2-1.0-0_1.46.2-3_amd64.deb ...
+Unpacking libpangoft2-1.0-0:amd64 (1.46.2-3) ...
+Selecting previously unselected package libpangocairo-1.0-0:amd64.
+Preparing to unpack .../23-libpangocairo-1.0-0_1.46.2-3_amd64.deb ...
+Unpacking libpangocairo-1.0-0:amd64 (1.46.2-3) ...
+Selecting previously unselected package libpoppler102:amd64.
+Preparing to unpack .../24-libpoppler102_20.09.0-3.1+deb11u2_amd64.deb ...
+Unpacking libpoppler102:amd64 (20.09.0-3.1+deb11u2) ...
+Selecting previously unselected package libtesseract4:amd64.
+Preparing to unpack .../25-libtesseract4_4.1.1-2.1_amd64.deb ...
+Unpacking libtesseract4:amd64 (4.1.1-2.1) ...
+Selecting previously unselected package poppler-utils.
+Preparing to unpack .../26-poppler-utils_20.09.0-3.1+deb11u2_amd64.deb ...
+Unpacking poppler-utils (20.09.0-3.1+deb11u2) ...
+Selecting previously unselected package tesseract-ocr-eng.
+Preparing to unpack .../27-tesseract-ocr-eng_1%3a4.00~git30-7274cfa-1.1_all.deb ...
+Unpacking tesseract-ocr-eng (1:4.00~git30-7274cfa-1.1) ...
+Selecting previously unselected package tesseract-ocr-osd.
+Preparing to unpack .../28-tesseract-ocr-osd_1%3a4.00~git30-7274cfa-1.1_all.deb ...
+Unpacking tesseract-ocr-osd (1:4.00~git30-7274cfa-1.1) ...
+Selecting previously unselected package tesseract-ocr.
+Preparing to unpack .../29-tesseract-ocr_4.1.1-2.1_amd64.deb ...
+Unpacking tesseract-ocr (4.1.1-2.1) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../30-zlib1g-dev_1%3a1.2.11.dfsg-2+deb11u2_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-2+deb11u2) ...
+Setting up libgraphite2-3:amd64 (1.3.14-1) ...
+Setting up liblcms2-2:amd64 (2.12~rc1-2) ...
+Setting up libpixman-1-0:amd64 (0.40.0-1.1~deb11u1) ...
+Setting up fontconfig (2.13.1-4.2) ...
+Regenerating fonts cache... [2025-05-03 08:19:21.870610] done.
+Setting up libxrender1:amd64 (1:0.9.10-1) ...
+Setting up libdatrie1:amd64 (0.2.13-1) ...
+Setting up libarchive13:amd64 (3.4.3-2+deb11u2) ...
+Setting up libxcb-render0:amd64 (1.14-3) ...
+Setting up tesseract-ocr-eng (1:4.00~git30-7274cfa-1.1) ...
+Setting up libxcb-shm0:amd64 (1.14-3) ...
+Setting up libcairo2:amd64 (1.16.0-5) ...
+Setting up poppler-data (0.4.10-1) ...
+Setting up libnspr4:amd64 (2:4.29-1) ...
+Setting up libfribidi0:amd64 (1.0.8-2+deb11u1) ...
+Setting up libgif7:amd64 (5.1.9-2) ...
+Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-2+deb11u2) ...
+Setting up libopenjp2-7:amd64 (2.4.0-3+deb11u1) ...
+Setting up libharfbuzz0b:amd64 (2.7.4-1) ...
+Setting up libthai-data (0.1.28-3) ...
+Setting up tesseract-ocr-osd (1:4.00~git30-7274cfa-1.1) ...
+Setting up libwebpmux3:amd64 (0.6.1-2.1+deb11u2) ...
+Setting up libnss3:amd64 (2:3.61-1+deb11u4) ...
+Setting up liblept5:amd64 (1.79.0-1.1+deb11u1) ...
+Setting up libthai0:amd64 (0.1.28-3) ...
+Setting up libtesseract4:amd64 (4.1.1-2.1) ...
+Setting up libpoppler102:amd64 (20.09.0-3.1+deb11u2) ...
+Setting up poppler-utils (20.09.0-3.1+deb11u2) ...
+Setting up libpango-1.0-0:amd64 (1.46.2-3) ...
+Setting up libpangoft2-1.0-0:amd64 (1.46.2-3) ...
+Setting up libpangocairo-1.0-0:amd64 (1.46.2-3) ...
+Setting up tesseract-ocr (4.1.1-2.1) ...
+Processing triggers for libc-bin (2.31-13+deb11u11) ...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+Resolved 77 packages in 976ms
+Prepared 77 packages in 2.45s
+Installed 77 packages in 144ms
+ + altair==4.2.2
+ + attrs==25.3.0
+ + bcrypt==4.0.1
+ + blinker==1.9.0
+ + brotli==1.1.0
+ + cachetools==5.5.2
+ + certifi==2025.4.26
+ + cffi==1.17.1
+ + [2025-05-03 08:19:26.743755] charset-normalizer==3.4.2
+ + click==8.1.8
+ + cssselect2==0.8.0
+ + dnspython==2.7.0
+ + email-validator==2.0.0
+ + entrypoints==0.4
+ + fonttools==4.57.0
+ + gitdb==4.0.12
+ + gitpython==3.1.44
+ + greenlet==3.2.1
+ + gtts==2.3.1
+ + html5lib==1.1
+ +[2025-05-03 08:19:26.744488]  idna==3.10
+ + importlib-metadata==8.7.0
+ + iniconfig==2.1.0
+ + itsdangerous==2.1.2
+ + jinja2==3.1.2
+ + jsonschema==4.23.0
+ + jsonschema-specifications==2025.4.1[2025-05-03 08:19:26.744715] 
+ + lxml==5.4.0
+ + markdown-it-py==3.0.0
+ + markupsafe==3.0.2
+ + mdurl==0.1.2
+ + numpy==2.2.5
+ + packaging==[2025-05-03 08:19:26.744963] 25.0
+ + pandas==2.2.3
+ + pillow==11.2.1
+ + pluggy==1.5.0
+ + protobuf==3.20.3
+ + pyarrow==20.0.0
+ + pycparser==2.22
+ + pydantic==1.10.8
+ + pydeck==0.9.1
+ + pydyf==0.11.0
+ + pygments==2.19.1
+ + pympler==1.1[2025-05-03 08:19:26.745326] 
+ + pypdf2==3.0.1
+ + pyphen==0.17.2
+ + pytesseract==0.3.10
+ + pytest==7.3.1
+ + python-dateutil==2.9.0.post0
+ + python-docx==0.8.11
+ + python-dotenv==1.0.0
+ + python-multipart==0.0.6
+ + pytz==2025.2
+ + referencing==0.36.2
+ + requests==2.32.3
+ + rich==14.0.0
+ + rpds-py==0.24.0
+ + [2025-05-03 08:19:26.745692] six==1.17.0
+ + smmap==5.0.2
+ + sqlalchemy==2.0.15
+ + streamlit==1.22.0
+ + stripe==5.4.0
+ + tenacity==8.5.0[2025-05-03 08:19:26.745969] 
+ + tinycss2==1.4.0
+ + toml==0.10.2
+ + toolz==1.0.0
+ + tornado==6.4.2
+ + typing-extensions[2025-05-03 08:19:26.746197] ==4.13.2
+ + tzdata==2025.2
+ + tzlocal==5.3.1
+ + urllib3==2.4.0
+ + validators==0.35.0
+ +[2025-05-03 08:19:26.746393]  watchdog==6.0.0
+ + weasyprint==59.0
+ + webencodings==0.5.1
+ + zipp==3.21.0
+ + zopfli==0.2.3.post1
+Checking if Streamlit is installed
+Found Streamlit version 1.22.0 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+Audited 1 package in 3ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[08:19:32] 🐍 Python dependencies were installed from /mount/src/ai-tutor-app/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[08:19:34] 📦 Processed dependencies!
+
+
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:565 in _run_script                                      
+                                                                                
+  /mount/src/ai-tutor-app/streamlit_app.py:10 in <module>                       
+                                                                                
+      7 from PIL import Image                                                   
+      8                                                                         
+      9 # Import components from modules                                        
+  ❱  10 from upload_handlers import UploadManager, UploadComponent              
+     11 from lesson_system import LessonExplainer, ExplanationComponent         
+     12 from tts import TextToSpeech, TTSComponent                              
+     13 from assessment import Database, QuizGenerator, ReportGenerator, QuizC  
+────────────────────────────────────────────────────────────────────────────────
+ModuleNotFoundError: No module named 'upload_handlers'

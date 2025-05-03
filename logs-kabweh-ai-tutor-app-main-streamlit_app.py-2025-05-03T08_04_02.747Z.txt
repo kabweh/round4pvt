@@ -1,0 +1,943 @@
+
+[     UTC     ] Logs for ai-tutor-app-pqf87ayptycp8aatfrvtva.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[08:01:13] 🖥 Provisioning machine...
+[08:01:13] 🎛 Preparing system...
+[08:01:13] ⛓ Spinning up manager process...
+[08:01:19] 🚀 Starting up repository: 'ai-tutor-app', branch: 'main', main module: 'streamlit_app.py'
+[08:01:19] 🐙 Cloning repository...
+[08:01:20] 🐙 Cloning into '/mount/src/ai-tutor-app'...
+Warning: Permanently added the ED25519 host key for IP address '140.82.116.4' to the list of known hosts.
+
+[08:01:20] 🐙 Cloned repository!
+[08:01:20] 🐙 Pulling code changes from Github...
+[08:01:21] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+Resolved 77 packages in 1.07s
+  × Failed to download and build `pillow==9.5.0`
+  ╰─▶ Build backend failed to build wheel through `build_wheel` (exit status:
+      1)
+
+      [stdout]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/IptcImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MicImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageCms.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BufrStubImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_util.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/McIdasImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PixarImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PdfParser.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_binary.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageDraw2.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/IcoImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImtImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/XpmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageTransform.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageFilter.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageMode.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageMath.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/DdsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/__main__.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PdfImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_deprecate.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/SpiderImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageQt.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageEnhance.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/IcnsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageFont.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FliImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/EpsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FtexImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/Jpeg2KImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/XVThumbImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/XbmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/features.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImagePath.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/SgiImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/DcxImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/WmfImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_tkinter_finder.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/Hdf5StubImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BdfFontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImagePalette.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PpmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageStat.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PSDraw.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PngImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/JpegImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/QoiImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageColor.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BmpImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PsdImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PcdImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MpegImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PalmImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FitsStubImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GifImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PcxImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/WebPImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FitsImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageDraw.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TiffImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/SunImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MpoImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GdImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageOps.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageTk.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MspImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BlpImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PyAccess.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageSequence.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PaletteFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageGrab.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GimpGradientFile.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageShow.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FpxImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageMorph.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TgaImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageWin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GbrImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_version.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GribStubImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GimpPaletteFile.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PcfFontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageChops.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TarIO.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/__init__.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/Image.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/CurImagePlugin.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TiffTags.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ContainerIO.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/JpegPresets.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/WalImageFile.py ->
+      build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ExifTags.py -> build/lib.linux-x86_64-cpython-312/PIL
+      running egg_info
+      writing src/Pillow.egg-info/PKG-INFO
+      writing dependency_links to src/Pillow.egg-info/dependency_links.txt
+      writing requirements to src/Pillow.egg-info/requires.txt
+      writing top-level names to src/Pillow.egg-info/top_level.txt
+      reading manifest file 'src/Pillow.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      adding license file 'LICENSE'
+      writing manifest file 'src/Pillow.egg-info/SOURCES.txt'
+      running build_ext
+
+      [stderr][2025-05-03 08:01:27.853413] 
+      /home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/dist.py:759:
+      SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+
+      
+      ********************************************************************************
+              Please consider removing the following classifiers in favor of a
+      SPDX license expression:
+
+              License :: OSI Approved :: Historical Permission Notice and
+      Disclaimer (HPND)
+
+              See
+      https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license
+      for details.
+      
+      ********************************************************************************
+
+      !!
+        self._finalize_license_expression()
+      warning: no files found matching '*.c'
+      warning: no files found matching '*.h'
+      warning: no files found matching '*.sh'
+      warning: no files found matching '*.txt'
+      warning: no previously-included files found matching '.appveyor.yml'
+      warning: no previously-included files found matching '.clang-format'
+      warning: no previously-included files found matching '.coveragerc'
+      warning: no previously-included files found matching '.editorconfig'
+      warning: no previously-included files found matching '.readthedocs.yml'
+      warning: no previously-included files found matching 'codecov.yml'
+      warning: no previously-included files found matching 'renovate.json'
+      warning: no previously-included files matching '.git*' found anywhere
+      in distribution
+      warning: no previously-included files matching '*.pyc' found anywhere
+      in distribution
+      warning: no previously-included files matching '*.so' found anywhere
+      in distribution
+      no previously-included directories found matching '.ci'
+
+
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation.html
+
+      Traceback (most recent call last):
+        File "<string>", line 993, in <module>
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/__init__.py",
+      line 117, in setup
+          return distutils.core.setup(**attrs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/core.py",
+      line 186, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/core.py",
+      line 202, in run_commands
+          dist.run_commands()
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/dist.py",
+      line 1002, in run_commands
+          self.run_command(cmd)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/dist.py",
+      line 1104, in run_command
+          super().run_command(command)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/dist.py",
+      line 1021, in run_command
+          cmd_obj.run()
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/command/bdist_wheel.py",
+      line 370, in run
+          self.run_command("build")
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/cmd.py",
+      line 357, in run_command
+          self.distribution.run_command(command)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/dist.py",
+      line 1104, in run_command
+          super().run_command(command)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/dist.py",
+      line 1021, in run_command
+          cmd_obj.run()
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/command/build.py",
+      line 135, in run
+          self.run_command(cmd_name)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/cmd.py",
+      line 357, in run_command
+          self.distribution.run_command(command)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/dist.py",
+      line 1104, in run_command
+          super().run_command(command)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/dist.py",
+      line 1021, in run_command
+          cmd_obj.run()
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/command/build_ext.py",
+      line 99, in run
+          _build_ext.run(self)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py",
+      line 368, in run
+          self.build_extensions()
+        File "<string>", line 809, in build_extensions
+      RequiredDependencyException: zlib
+
+      During handling of the above exception, another exception occurred:
+
+      Traceback (most recent call last):
+        File "<string>", line 11, in <module>
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/build_meta.py",
+      line 432, in build_wheel
+          return _build(['bdist_wheel'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/build_meta.py",
+      line 423, in _build
+          return self._build_with_temp_dir(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/build_meta.py",
+      line 404, in _build_with_temp_dir
+          self.run_setup()
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/build_meta.py",
+      line 512, in run_setup
+          super().run_setup(setup_script=setup_script)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmpkiAOg1/lib/python3.12/site-packages/setuptools/build_meta.py",
+      line 317, in run_setup
+          exec(code, locals())
+        File "<string>", line 1010, in <module>
+      RequiredDependencyException:
+
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation.html
+
+
+
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.12.10 environment at /home/adminuser/venv
+Resolved 4 packages in 2ms
+Installed 4 packages in 82ms
+ + markdown-it-py==3.0.0
+ + mdurl==0.1.2[2025-05-03 08:01:27.978393] 
+ + pygments==2.19.1
+ + rich==14.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit==1.22.0 (from -r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading streamlit-1.22.0-py2.py3-none-any.whl.metadata (7.3 kB)
+Collecting pillow==9.5.0 (from -r /mount/src/ai-tutor-app/requirements.txt (line 2))
+  Downloading Pillow-9.5.0.tar.gz (50.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.5/50.5 MB 87.3 MB/s eta 0:00:00[2025-05-03 08:01:30.029331] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pytesseract==0.3.10 (from -r /mount/src/ai-tutor-app/requirements.txt (line 3))
+  Downloading pytesseract-0.3.10-py3-none-any.whl.metadata (11 kB)
+Collecting PyPDF2==3.0.1 (from -r /mount/src/ai-tutor-app/requirements.txt (line 4))
+  Downloading pypdf2-3.0.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting python-docx==0.8.11 (from -r /mount/src/ai-tutor-app/requirements.txt (line 5))
+  Downloading python-docx-0.8.11.tar.gz (5.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 220.8 MB/s eta 0:00:00[2025-05-03 08:01:34.284480] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting gTTS==2.3.1 (from -r /mount/src/ai-tutor-app/requirements.txt (line 6))
+  Downloading gTTS-2.3.1-py3-none-any.whl.metadata (4.1 kB)
+Collecting bcrypt==4.0.1 (from -r /mount/src/ai-tutor-app/requirements.txt (line 7))
+  Downloading bcrypt-4.0.1-cp36-abi3-manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting itsdangerous==2.1.2 (from -r /mount/src/ai-tutor-app/requirements.txt (line 8))
+  Downloading itsdangerous-2.1.2-py3-none-any.whl.metadata (2.9 kB)
+Collecting stripe==5.4.0 (from -r /mount/src/ai-tutor-app/requirements.txt (line 9))
+  Downloading stripe-5.4.0-py2.py3-none-any.whl.metadata (2.6 kB)
+Collecting SQLAlchemy==2.0.15 (from -r /mount/src/ai-tutor-app/requirements.txt (line 10))
+  Downloading SQLAlchemy-2.0.15-py3-none-any.whl.metadata (9.3 kB)
+Collecting pytest==7.3.1 (from -r /mount/src/ai-tutor-app/requirements.txt (line 11))
+  Downloading pytest-7.3.1-py3-none-any.whl.metadata (7.9 kB)
+Collecting pydantic==1.10.8 (from -r /mount/src/ai-tutor-app/requirements.txt (line 12))
+  Downloading pydantic-1.10.8-py3-none-any.whl.metadata (146 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.4/146.4 kB 158.2 MB/s eta 0:00:00[2025-05-03 08:01:38.539200] 
+Collecting python-multipart==0.0.6 (from -r /mount/src/ai-tutor-app/requirements.txt (line 13))
+  Downloading python_multipart-0.0.6-py3-none-any.whl.metadata (2.5 kB)
+Collecting email-validator==2.0.0 (from -r /mount/src/ai-tutor-app/requirements.txt (line 14))
+  Downloading email_validator-2.0.0-py3-none-any.whl.metadata (25 kB)
+Collecting python-dotenv==1.0.0 (from -r /mount/src/ai-tutor-app/requirements.txt (line 15))
+  Downloading python_dotenv-1.0.0-py3-none-any.whl.metadata (21 kB)
+Collecting jinja2==3.1.2 (from -r /mount/src/ai-tutor-app/requirements.txt (line 16))
+  Downloading Jinja2-3.1.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting weasyprint==59.0 (from -r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading weasyprint-59.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting altair<5,>=3.2.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading altair-4.2.2-py3-none-any.whl.metadata (13 kB)
+Collecting blinker>=1.0.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools>=4.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting click>=7.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting importlib-metadata>=1.4 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading importlib_metadata-8.7.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting numpy (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading numpy-2.2.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 178.8 MB/s eta 0:00:00[2025-05-03 08:01:39.284761] 
+Collecting packaging>=14.1 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pandas<3,>=0.25 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 239.2 MB/s eta 0:00:00[2025-05-03 08:01:39.499164] 
+Collecting protobuf<4,>=3.12 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading protobuf-3.20.3-py2.py3-none-any.whl.metadata (720 bytes)
+Collecting pyarrow>=4.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting pympler>=0.9 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading Pympler-1.1-py3-none-any.whl.metadata (3.6 kB)
+Collecting python-dateutil (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting requests>=2.4 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting rich>=10.11.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting tenacity<9,>=8.0.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading tenacity-8.5.0-py3-none-any.whl.metadata (1.2 kB)
+Collecting toml (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting typing-extensions>=3.10.0.0 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading typing_extensions-4.13.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting tzlocal>=1.1 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading tzlocal-5.3.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting validators>=0.2 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading validators-0.35.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting gitpython!=3.1.19 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading GitPython-3.1.44-py3-none-any.whl.metadata (13 kB)
+Collecting pydeck>=0.1.dev5 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+Collecting tornado>=6.0.3 (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading tornado-6.4.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+Collecting watchdog (from streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 kB 167.8 MB/s eta 0:00:00[2025-05-03 08:01:40.628188] 
+Collecting lxml>=2.3.2 (from python-docx==0.8.11->-r /mount/src/ai-tutor-app/requirements.txt (line 5))
+  Downloading lxml-5.4.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.5 kB)
+Collecting greenlet!=0.4.17 (from SQLAlchemy==2.0.15->-r /mount/src/ai-tutor-app/requirements.txt (line 10))
+  Downloading greenlet-3.2.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (4.1 kB)
+Collecting iniconfig (from pytest==7.3.1->-r /mount/src/ai-tutor-app/requirements.txt (line 11))
+  Downloading iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting pluggy<2.0,>=0.12 (from pytest==7.3.1->-r /mount/src/ai-tutor-app/requirements.txt (line 11))
+  Downloading pluggy-1.5.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting dnspython>=2.0.0 (from email-validator==2.0.0->-r /mount/src/ai-tutor-app/requirements.txt (line 14))
+  Downloading dnspython-2.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting idna>=2.0.0 (from email-validator==2.0.0->-r /mount/src/ai-tutor-app/requirements.txt (line 14))
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting MarkupSafe>=2.0 (from jinja2==3.1.2->-r /mount/src/ai-tutor-app/requirements.txt (line 16))
+  Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Collecting pydyf>=0.6.0 (from weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading pydyf-0.11.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting cffi>=0.6 (from weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting html5lib>=1.1 (from weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading html5lib-1.1-py2.py3-none-any.whl.metadata (16 kB)
+Collecting tinycss2>=1.0.0 (from weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading tinycss2-1.4.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting cssselect2>=0.1 (from weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading cssselect2-0.8.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting Pyphen>=0.9.1 (from weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading pyphen-0.17.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting fonttools>=4.0.0 (from fonttools[woff]>=4.0.0->weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading fonttools-4.57.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (102 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.5/102.5 kB 249.4 MB/s eta 0:00:00[2025-05-03 08:01:42.123134] 
+Collecting entrypoints (from altair<5,>=3.2.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading entrypoints-0.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting jsonschema>=3.0 (from altair<5,>=3.2.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting toolz (from altair<5,>=3.2.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading toolz-1.0.0-py3-none-any.whl.metadata (5.1 kB)
+Collecting pycparser (from cffi>=0.6->weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting webencodings (from cssselect2>=0.1->weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Collecting brotli>=1.0.1 (from fonttools[woff]>=4.0.0->weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading Brotli-1.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
+Collecting zopfli>=0.1.4 (from fonttools[woff]>=4.0.0->weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading zopfli-0.2.3.post1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.9 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting six>=1.9 (from html5lib>=1.1->weasyprint==59.0->-r /mount/src/ai-tutor-app/requirements.txt (line 17))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting zipp>=3.20 (from importlib-metadata>=1.4->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading zipp-3.21.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting pytz>=2020.1 (from pandas<3,>=0.25->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas<3,>=0.25->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting charset-normalizer<4,>=2 (from requests>=2.4->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading charset_normalizer-3.4.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.4->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading urllib3-2.4.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests>=2.4->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading certifi-2025.4.26-py3-none-any.whl.metadata (2.5 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.11.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.11.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading smmap-5.0.2-py3-none-any.whl.metadata (4.3 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair<5,>=3.2.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair<5,>=3.2.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading jsonschema_specifications-2025.4.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair<5,>=3.2.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=3.0->altair<5,>=3.2.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading rpds_py-0.24.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.11.0->streamlit==1.22.0->-r /mount/src/ai-tutor-app/requirements.txt (line 1))
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading streamlit-1.22.0-py2.py3-none-any.whl (8.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.9/8.9 MB 236.5 MB/s eta 0:00:00[2025-05-03 08:01:44.580029] 
+Downloading pytesseract-0.3.10-py3-none-any.whl (14 kB)
+Downloading pypdf2-3.0.1-py3-none-any.whl (232 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.6/232.6 kB 215.8 MB/s eta 0:00:00[2025-05-03 08:01:44.602538] 
+Downloading gTTS-2.3.1-py3-none-any.whl (28 kB)
+Downloading bcrypt-4.0.1-cp36-abi3-manylinux_2_28_x86_64.whl (593 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 593.7/593.7 kB 246.4 MB/s eta 0:00:00[2025-05-03 08:01:44.627888] 
+Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Downloading stripe-5.4.0-py2.py3-none-any.whl (255 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 255.4/255.4 kB 260.9 MB/s eta 0:00:00[2025-05-03 08:01:44.654597] 
+Downloading SQLAlchemy-2.0.15-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 172.7 MB/s eta 0:00:00[2025-05-03 08:01:44.679166] 
+Downloading pytest-7.3.1-py3-none-any.whl (320 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 320.5/320.5 kB 207.4 MB/s eta 0:00:00[2025-05-03 08:01:44.696124] 
+Downloading pydantic-1.10.8-py3-none-any.whl (157 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.5/157.5 kB 245.6 MB/s eta 0:00:00[2025-05-03 08:01:44.709244] 
+Downloading python_multipart-0.0.6-py3-none-any.whl (45 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 kB 189.6 MB/s eta 0:00:00[2025-05-03 08:01:44.721860] 
+Downloading email_validator-2.0.0-py3-none-any.whl (31 kB)
+Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB 231.8 MB/s eta 0:00:00[2025-05-03 08:01:44.754055] 
+Downloading weasyprint-59.0-py3-none-any.whl (267 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 267.6/267.6 kB 186.9 MB/s eta 0:00:00[2025-05-03 08:01:44.768675] 
+Downloading altair-4.2.2-py3-none-any.whl (813 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 813.6/813.6 kB 199.5 MB/s eta 0:00:00[2025-05-03 08:01:44.783983] 
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading cachetools-5.5.2-py3-none-any.whl (10 kB)
+Downloading cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (479 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 479.4/479.4 kB 211.3 MB/s eta 0:00:00[2025-05-03 08:01:44.816049] 
+Downloading click-8.1.8-py3-none-any.whl (98 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 kB 182.8 MB/s eta 0:00:00[2025-05-03 08:01:44.827758] 
+Downloading cssselect2-0.8.0-py3-none-any.whl (15 kB)
+Downloading dnspython-2.7.0-py3-none-any.whl (313 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 313.6/313.6 kB 179.9 MB/s eta 0:00:00[2025-05-03 08:01:44.850808] 
+Downloading fonttools-4.57.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 225.5 MB/s eta 0:00:00[2025-05-03 08:01:44.883611] 
+Downloading GitPython-3.1.44-py3-none-any.whl (207 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.6/207.6 kB 238.7 MB/s eta 0:00:00[2025-05-03 08:01:44.895760] 
+Downloading greenlet-3.2.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (603 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 603.8/603.8 kB 208.0 MB/s eta 0:00:00[2025-05-03 08:01:44.910221] 
+Downloading html5lib-1.1-py2.py3-none-any.whl (112 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 112.2/112.2 kB 235.7 MB/s eta 0:00:00[2025-05-03 08:01:44.921473] 
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 159.0 MB/s eta 0:00:00[2025-05-03 08:01:44.933471] 
+Downloading importlib_metadata-8.7.0-py3-none-any.whl (27 kB)
+Downloading lxml-5.4.0-cp312-cp312-manylinux_2_28_x86_64.whl (5.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 207.1 MB/s eta 0:00:00[2025-05-03 08:01:44.979300] 
+Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+Downloading packaging-25.0-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.5/66.5 kB 176.7 MB/s eta 0:00:00[2025-05-03 08:01:44.999290] 
+Downloading pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 191.2 MB/s eta 0:00:00[2025-05-03 08:01:45.082382] 
+Downloading numpy-2.2.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.1/16.1 MB 196.4 MB/s eta 0:00:00[2025-05-03 08:01:45.183255] 
+Downloading pluggy-1.5.0-py3-none-any.whl (20 kB)
+Downloading protobuf-3.20.3-py2.py3-none-any.whl (162 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.1/162.1 kB 228.0 MB/s eta 0:00:00[2025-05-03 08:01:45.207088] 
+Downloading pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (42.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.3/42.3 MB 219.0 MB/s eta 0:00:00[2025-05-03 08:01:45.429849] 
+Downloading pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 202.1 MB/s eta 0:00:00[2025-05-03 08:01:45.476597] 
+Downloading pydyf-0.11.0-py3-none-any.whl (8.1 kB)
+Downloading Pympler-1.1-py3-none-any.whl (165 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 165.8/165.8 kB 225.8 MB/s eta 0:00:00[2025-05-03 08:01:45.500002] 
+Downloading pyphen-0.17.2-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 223.8 MB/s eta 0:00:00[2025-05-03 08:01:45.521236] 
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 207.0 MB/s eta 0:00:00[2025-05-03 08:01:45.533738] 
+Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 149.4 MB/s eta 0:00:00[2025-05-03 08:01:45.567940] 
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 247.4 MB/s eta 0:00:00[2025-05-03 08:01:45.581347] 
+Downloading tenacity-8.5.0-py3-none-any.whl (28 kB)
+Downloading tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Downloading tornado-6.4.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (437 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 437.2/437.2 kB 194.7 MB/s eta 0:00:00[2025-05-03 08:01:45.615387] 
+Downloading typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.8/45.8 kB 126.2 MB/s eta 0:00:00[2025-05-03 08:01:45.627428] 
+Downloading tzlocal-5.3.1-py3-none-any.whl (18 kB)
+Downloading validators-0.35.0-py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.7/44.7 kB 164.2 MB/s eta 0:00:00[2025-05-03 08:01:45.651968] 
+Downloading iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 155.7 MB/s eta 0:00:00[2025-05-03 08:01:45.684861] 
+Downloading Brotli-1.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 174.4 MB/s eta 0:00:00[2025-05-03 08:01:45.713672] 
+Downloading certifi-2025.4.26-py3-none-any.whl (159 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 159.6/159.6 kB 206.5 MB/s eta 0:00:00[2025-05-03 08:01:45.728707] 
+Downloading charset_normalizer-3.4.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (148 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 148.6/148.6 kB 213.7 MB/s eta 0:00:00[2025-05-03 08:01:45.742116] 
+Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 163.0 MB/s eta 0:00:00[2025-05-03 08:01:45.754379] 
+Downloading jsonschema-4.23.0-py3-none-any.whl (88 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.5/88.5 kB 129.9 MB/s eta 0:00:00[2025-05-03 08:01:45.774227] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 125.1 MB/s eta 0:00:00[2025-05-03 08:01:45.787809] 
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 152.3 MB/s eta 0:00:00[2025-05-03 08:01:45.812469] 
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 164.3 MB/s eta 0:00:00[2025-05-03 08:01:45.835699] 
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 224.7 MB/s eta 0:00:00[2025-05-03 08:01:45.859143] 
+Downloading urllib3-2.4.0-py3-none-any.whl (128 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.7/128.7 kB 234.9 MB/s eta 0:00:00[2025-05-03 08:01:45.871471] 
+Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Downloading zipp-3.21.0-py3-none-any.whl (9.6 kB)
+Downloading zopfli-0.2.3.post1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (851 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 851.1/851.1 kB 234.6 MB/s eta 0:00:00[2025-05-03 08:01:45.922521] 
+Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 205.1 MB/s eta 0:00:00[2025-05-03 08:01:45.944465] 
+Downloading toolz-1.0.0-py3-none-any.whl (56 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.4/56.4 kB 191.2 MB/s eta 0:00:00
+Downloading attrs-25.3.0-py3-none-any.whl (63 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.8/63.8 kB 149.9 MB/s eta 0:00:00[2025-05-03 08:01:45.969371] 
+Downloading jsonschema_specifications-2025.4.1-py3-none-any.whl (18 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading referencing-0.36.2-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.24.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (393 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 393.7/393.7 kB 246.6 MB/s eta 0:00:00[2025-05-03 08:01:46.012491] 
+Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
+Building wheels for collected packages: pillow, python-docx
+  Building wheel for pillow (pyproject.toml): started
+  Building wheel for pillow (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Building wheel for pillow (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [217 lines of output]
+      /tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        self._finalize_license_expression()
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/IptcImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MicImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageCms.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BufrStubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_util.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/McIdasImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PixarImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PdfParser.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_binary.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageDraw2.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/IcoImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImtImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/XpmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageTransform.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageFilter.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageMode.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageMath.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/DdsImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/__main__.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PdfImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_deprecate.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/SpiderImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageQt.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageEnhance.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/IcnsImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageFont.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FliImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/EpsImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FtexImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/Jpeg2KImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/XVThumbImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/XbmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/features.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImagePath.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/SgiImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/DcxImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/WmfImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_tkinter_finder.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/Hdf5StubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BdfFontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImagePalette.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PpmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageStat.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PSDraw.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PngImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/JpegImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/QoiImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageColor.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BmpImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PsdImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PcdImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MpegImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PalmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FitsStubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GifImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PcxImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/WebPImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FitsImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageDraw.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TiffImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/SunImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MpoImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GdImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageOps.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageTk.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/MspImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/BlpImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PyAccess.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageSequence.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PaletteFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageGrab.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GimpGradientFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageShow.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/FpxImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageMorph.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TgaImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageWin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GbrImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/_version.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GribStubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/GimpPaletteFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/PcfFontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ImageChops.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TarIO.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/__init__.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/Image.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/CurImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/TiffTags.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ContainerIO.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/JpegPresets.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/WalImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying src/PIL/ExifTags.py -> build/lib.linux-x86_64-cpython-312/PIL
+      running egg_info
+      writing src/Pillow.egg-info/PKG-INFO
+      writing dependency_links to src/Pillow.egg-info/dependency_links.txt
+      writing requirements to src/Pillow.egg-info/requires.txt
+      writing top-level names to src/Pillow.egg-info/top_level.txt
+      reading manifest file 'src/Pillow.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no files found matching '*.c'
+      warning: no files found matching '*.h'
+      warning: no files found matching '*.sh'
+      warning: no files found matching '*.txt'
+      warning: no previously-included files found matching '.appveyor.yml'
+      warning: no previously-included files found matching '.clang-format'
+      warning: no previously-included files found matching '.coveragerc'
+      warning: no previously-included files found matching '.editorconfig'
+      warning: no previously-included files found matching '.readthedocs.yml'
+      warning: no previously-included files found matching 'codecov.yml'
+      warning: no previously-included files found matching 'renovate.json'
+      warning: no previously-included files matching '.git*' found anywhere in distribution
+      warning: no previously-included files matching '*.pyc' found anywhere in distribution
+      warning: no previously-included files matching '*.so' found anywhere in distribution
+      no previously-included directories found matching '.ci'
+      adding license file 'LICENSE'
+      writing manifest file 'src/Pillow.egg-info/SOURCES.txt'
+      running build_ext
+      
+      
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+      
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation.html
+      
+      Traceback (most recent call last):
+        File "<string>", line 993, in <module>
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 186, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+          dist.run_commands()
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+          self.run_command(cmd)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 1104, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/command/bdist_wheel.py", line 370, in run
+          self.run_command("build")
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+          self.distribution.run_command(command)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 1104, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/build.py", line 135, in run
+          self.run_command(cmd_name)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/cmd.py", line 357, in run_command
+          self.distribution.run_command(command)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 1104, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/command/build_ext.py", line 99, in run
+          _build_ext.run(self)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/build_ext.py", line 368, in run
+          self.build_extensions()
+        File "<string>", line 809, in build_extensions
+      RequiredDependencyException: zlib
+      
+      During handling of the above exception, another exception occurred:
+      
+      Traceback (most recent call last):
+        File "/home/adminuser/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+        File "/home/adminuser/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/adminuser/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 251, in build_wheel
+          return _build_backend().build_wheel(wheel_directory, config_settings,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 435, in build_wheel
+          return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 423, in _build
+          return self._build_with_temp_dir(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 404, in _build_with_temp_dir
+          self.run_setup()
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 512, in run_setup
+          super().run_setup(setup_script=setup_script)
+        File "/tmp/pip-build-env-7nwwga_x/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+        File "<string>", line 1010, in <module>
+      RequiredDependencyException:
+      
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+      
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation.html
+      
+      
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pillow
+  Building wheel for python-docx (pyproject.toml): started
+  Building wheel for python-docx (pyproject.toml): finished with status 'done'
+  Created wheel for python-docx: filename=python_docx-0.8.11-py3-none-any.whl size=184570 sha256=c123ba824e0cb6ee5851ca24b3d78085a8d6cd2861cbb47e497bef963728f0af
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9ta73uc_/wheels/e2/80/66/f9d57f4033ea18bb41c55f2379badd1da48e128c131efe39b5
+Successfully built python-docx
+Failed to build pillow
+ERROR: Could not build wheels for pillow, which is required to install pyproject.toml-based projects
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 14.4 MB/s eta 0:00:00[2025-05-03 08:01:49.004810] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 215.7 MB/s eta 0:00:00[2025-05-03 08:01:49.015757] 
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 83.3 MB/s eta 0:00:00[2025-05-03 08:01:49.041194] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.1
+    Uninstalling Pygments-2.19.1:
+      Successfully uninstalled Pygments-2.19.1
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[08:01:51] ❗️ installer returned a non-zero exit code
+[08:01:51] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
